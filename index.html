@@ -4,39 +4,69 @@
 
 	<head>
 		<title>Google Searchpage</title>
-		<link type="text/css" rel="stylesheet" href="google.css">
+		<link type="text/css" rel="stylesheet" href="search.css">
 	</head>
 
 	<body>
 
+		<div class="page">
+
 		<div class="header">
-		<ul class="navigation">
-			<li><a class="navigation-left" href="http:/www.google.com"><img id="logo1" src="google-logo.png" alt="logo"></a></li>
-			<li>
+		<ul>
+			<li class="navigation" ><a class="logo" href="http:/www.google.com"><img class="logo" src="google-logo.png" alt="logo"></a></li>
+			<li class="navigation" >
 				<form>
-					<input id="search-bar" type="text" value="Odin Project">
-					<input id="magnify" type="submit" value="submit">
+					<input class="search" type="text" value="Odin Project">
+					<input id="magnify" type="image"  src="magnifying-glass.png" alt="Submit Form" value="submit">
 				</form>
 			</li>
-			<li><a class="navigation-right" href="http:/www.facebook.com"><img id="icon" src="fringe.jpg" alt="beth"></a></li>
-			<li><a class="navigation-right" href="http:/www.google.com/images">Images</a></li>
-			<li><a class="navigation-right" href="http:/www.google.com/images">Gmail</a></li>
+			<li class="navigation" ><a class="me" href="http:/www.facebook.com"><img id="me" src="fringe.jpg" alt="beth"></a></li>
+		</ul>
+		<ul class="nav">
+			<li class="navlinks"><a class="hlinks" href="http:/www.facebook.com">All</a></li>
+			<li class="navlinks"><a class="hlinks" href="http:/www.facebook.com">Videos</a></li>
+			<li class="navlinks"><a class="hlinks" href="http:/www.facebook.com">Shopping</a></li>
+			<li class="navlinks"><a class="hlinks" href="http:/www.facebook.com">News</a></li>
+			<li class="navlinks"><a class="hlinks" href="http:/www.facebook.com">Maps</a></li>
+			<li class="navlinks"><a class="hlinks" id="more" href="http:/www.facebook.com">More</a></li>
+			<li class="navlinks"><a class="hlinks" href="http:/www.facebook.com">Settings</a></li>
+			<li class="navlinks"><a class="hlinks" href="http:/www.facebook.com">Tools</a></li>
 		</ul>
 		</div>
 
-		<p><img id="logo" class="logo" src="google-logo.png" alt="google logo"></p>
+		<div class="results">
+			<div class= "number">About 2,580,000 results (0.55 seconds)</div>
 
-		<form class="logo" action="">
-			<input class="search-bar" type="text" value=""><br>
-			<input class="submit" type="submit" value="Google Search">
-			<input class="submit" type="submit" value="I'm Feeling Lucky" >
-		</form>
+			<div class="result1">
+				<span class="resulthead"><a class="resulthead" href="http://www.google.com"> With zero coding experience, artist building 180 webpages in 180 days</a></span><br>
+				<span class="resultlink">arstechnica.com/.../with-zero-coding-experience-artist-building-180-webpages-in-180...</span><br>
+				<span class="resultdate">117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ...</span><br>
+			</div>
+			<p>
+			<div class="result2">
+				<span class="resulthead"><a class="resulthead" href="http://www.google.com">Google Homepage</a></span><br>
+				<span class="resultlink">swatikumar16.github.io/google-homepage/</span><br>
+				<span class="resultdate">117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she</span>
+			</div>
+			</p>
 
-		<ul class="footer">
-			<li><a class="footer" href="http:/www.facebook.com">Advertising</a></li>
-			<li><a class="footer" href="http:/www.google.com/images">Business</a></li>
-			<li><a class="footer" href="http:/www.google.com/images">About</a></li>
+		</div>
+
+		<div class="footer">
+		<ul>
+			<li class="hfooter-list" id="postcode">B13 8AG, Birmingham, United Kingdom</li>
+			<li class="hfooter-list">- <a class="flinks" href="http:/www.facebook.com">Use precise location</a></li>
+			<li class="hfooter-list">- <a class="flinks" href="http:/www.facebook.com">Learn More</a></li>
 		</ul>
+		<ul>
+			<li class="footer-list"><a class="flinks" href="http:/www.facebook.com">Help</a></li>
+			<li class="footer-list"><a class="flinks" href="http:/www.google.com/images">Send feedback</a></li>
+			<li class="footer-list"><a class="flinks" href="http:/www.google.com/images">Privacy</a></li>
+			<li class="footer-list"><a class="flinks" href="http:/www.google.com/images">Terms</a></li>
+			<li class="footer-list"><a class="flinks" href="http:/www.google.com/images">Use Google.com</a></li>
+		</ul>
+		</div>
+
 
 	</body>
 
