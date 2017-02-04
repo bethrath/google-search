@@ -162,3 +162,20 @@ a:hover {
 .resultlink {
 	color: #236721;
 }
+
+.relatedsearches {
+	text-align: left;
+	text-decoration: none;
+}
+
+th {
+	color:#666770;
+	font-size: 16px;
+	padding-bottom: 5px;
+
+}
+.searchlink {
+	text-decoration: none;
+	color: #2518ab;
+	font-size: 14px;
+}
